@@ -1,0 +1,14 @@
+services:
+  api:
+    build: .
+    container_name: axum-microservice
+    env_file:
+      - .env
+    ports:
+      - "8080:8080"
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://127.0.0.1:8080/api/v1/health"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+      start_period: 10s
