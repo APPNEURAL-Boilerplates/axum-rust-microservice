@@ -1,5 +1,5 @@
 [package]
-name = "axum-rust-microservice"
+name = "axum-rust-microservice-boilerplate"
 version = "0.1.0"
 edition = "2021"
 publish = false
