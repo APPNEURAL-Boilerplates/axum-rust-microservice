@@ -1,4 +1,4 @@
-# Axum Microservice Boilerplate
+# Axum Rust Microservice
 
 Production-style Rust microservice boilerplate using Axum, Tokio, Tower middleware, structured tracing, Docker, and integration tests.
 

@@ -1,11 +1,11 @@
 [package]
-name = "axum-microservice-boilerplate"
+name = "axum-rust-microservice"
 version = "0.1.0"
 edition = "2021"
 publish = false
 
 [lib]
-name = "axum_microservice_boilerplate"
+name = "axum_rust_microservice"
 path = "src/lib.rs"
 
 [[bin]]
