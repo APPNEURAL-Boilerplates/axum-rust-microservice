@@ -2,7 +2,7 @@ use axum::{
     body::{to_bytes, Body},
     http::{header::CONTENT_TYPE, Method, Request, StatusCode},
 };
-use axum_microservice_boilerplate::{app::build_router, config::AppConfig, state::AppState};
+use axum_rust_microservice::{app::build_router, config::AppConfig, state::AppState};
 use pretty_assertions::assert_eq;
 use serde_json::{json, Value};
 use tower::ServiceExt;

@@ -1,4 +1,4 @@
-use axum_microservice_boilerplate::{
+use axum_rust_microservice::{
     app::build_router, config::AppConfig, logging::init_tracing, state::AppState,
 };
 
